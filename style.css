@@ -89,8 +89,9 @@ h1{
     position: absolute;
     width: 592px;
     height: 719px;
-    left: 100px;
+    left: 950px;
     top: 0px;
+    
 }
 .datos h3{
     text-align: center;
@@ -105,7 +106,6 @@ h1{
     position: absolute;
     width: 271px;
     height: 268px;
-    left: 794px;
     top: 123px;
     
     background: #D9D9D9;
@@ -116,9 +116,8 @@ h1{
     position: absolute;
     width: 271px;
     height: 268px;
-    left: 1115px;
+    left: 320px;
     top: 123px;
-    
     background: #D9D9D9;
     
 }
@@ -127,8 +126,7 @@ h1{
     position: absolute;
     width: 271px;
     height: 268px;
-    left: 795px;
-    top: 496px;
+    top: 450px;
     
     background: #D9D9D9;
 }
@@ -137,8 +135,8 @@ h1{
     position: absolute;
     width: 271px;
     height: 268px;
-    left: 1115px;
-    top: 496px;
+    left: 320px;
+    top: 450px;
     
     background: #D9D9D9;
 }

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+
+h1{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: chocolate;
+    font-family: 'Tilt Warp', cursive;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-color: aquamarine;
+    border-style: double;
+    border-radius: 15px;
+    border-color: blue;
+    text-align: center;
+}
+
+
+th{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    background-color: chartreuse;
+    color: crimson;
+    border-style: dashed;
+    border-color: black;
+    padding: 10px;
+}
+
+td:first-child{
+    background-color: black;
+    color: white;
+}
+
+td:hover{
+    background-color: white;
+    color: chocolate;
+}
+
+
+
+.ficha{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+    color: white;
+    background-color: black;
+}
+
+.bingo{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    font-size: 34px;
+}
+
+.ficha:hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+h2{
+    margin: 50px auto 20px auto;
+    text-align: center;
+}
+
+.formulario{
+    width: 300px;
+    background-color: gray;
+    border-radius: 25px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    width: 150px;
+}
+
+.cajaTexto{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    width: 150px;
+}
+
+.sexo{
+    text-align: center;
+}
+
+.boton{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    width: 150px;
+    background-color: brown;
+    color: white;
+}
+
+.boton:hover{
+    background-color: orange;
+    
+}
+
+section{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+  }
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tabla.css" />
+    <title>Tablas,forms y multimedia</title>
+  </head>
+  <body>
+    <h1>Ejercicio Tablas, Formularios y Multimedia</h1>
+    <table>
+      <tr>
+        <th>Ciudad</th>
+        <th>Temperatura</th>
+        <th>Altitud</th>
+        <th>Poblacion</th>
+        <th>Fecha</th>
+        <th>Ranking</th>
+      </tr>
+      <tr>
+        <td>Bogota</td>
+        <td>12</td>
+        <td>2600</td>
+        <td>8 Millones</td>
+        <td>13/03/2023</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Medellin</td>
+        <td>22</td>
+        <td>1600</td>
+        <td>5 Millones</td>
+        <td>13/03/2023</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Envigado</td>
+        <td>23</td>
+        <td>1600</td>
+        <td>250 Mil</td>
+        <td>13/03/2023</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Bello</td>
+        <td>22</td>
+        <td>1500</td>
+        <td>100 Mil</td>
+        <td>13/03/2023</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <hr />
+    <table class="bingo">
+      <tr>
+        <th>B</th>
+        <th>I</th>
+        <th>N</th>
+        <th>G</th>
+        <th>O</th>
+      </tr>
+      <tr>
+        <td class="ficha">1</td>
+        <td class="ficha">16</td>
+        <td class="ficha">30</td>
+        <td class="ficha">45</td>
+        <td class="ficha">65</td>
+      </tr>
+
+      <tr>
+        <td class="ficha">1</td>
+        <td class="ficha">16</td>
+        <td class="ficha">30</td>
+        <td class="ficha">45</td>
+        <td class="ficha">65</td>
+      </tr>
+      <tr>
+        <td class="ficha">1</td>
+        <td class="ficha">16</td>
+        <td class="ficha">30</td>
+        <td class="ficha">45</td>
+        <td class="ficha">65</td>
+      </tr>
+      <tr>
+        <td class="ficha">1</td>
+        <td class="ficha">16</td>
+        <td class="ficha">30</td>
+        <td class="ficha">45</td>
+        <td class="ficha">65</td>
+      </tr>
+      <tr>
+        <td class="ficha">1</td>
+        <td class="ficha">16</td>
+        <td class="ficha">30</td>
+        <td class="ficha">45</td>
+        <td class="ficha">65</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Ejercicio de formularios</h2>
+    <form action="guardar.php" method="post" class="formulario">
+      <h3>Datos Personales</h3>
+      <label for="nombres">Nombres:</label>
+      <input
+        class="cajaTexto"
+        type="text"
+        name="nombres"
+        id=""
+        placeholder="Digite Nombre"
+      />
+      <br />
+      <label for="apellidos">Apellidos:</label>
+      <input
+        class="cajaTexto"
+        type="text"
+        name="apellidos"
+        placeholder="Digite Apellido"
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        class="cajaTexto"
+        type="email"
+        name="email"
+        placeholder="Digite E-mail"
+      />
+      <h3>Sexo</h3>
+      <label for="sexo">Hombre:</label>
+      <input type="radio" name="sexo" , value="hombre" />
+      <br />
+      <label for="sexo">Mujer:</label>
+      <input type="radio" name="sexo" value="mujer" />
+      <br />
+      <input class="boton" type="submit" />
+      <input class="boton" type="reset" />
+    </form>
+    <hr />
+    <h2>Ejercicio Multimedia</h2>
+    <section>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mNbnV3aN3KA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <hr>
+    <section class="volver"><a  href="portafolio3.html">Volver</a></section>
+  </body>
+</html>

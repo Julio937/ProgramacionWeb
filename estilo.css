@@ -1,0 +1,214 @@
+/* Resetear estilos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos de la página */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+header li {
+  margin-right: 20px;
+  font-size: 18px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header a {
+  color: #666;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #333;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+main figure {
+  margin: 0;
+  text-align: center;
+}
+
+main figure img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+section p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: calc(25% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.article:last-child {
+  margin-right: 0;
+}
+
+.article h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.article ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px 20px;
+}
+
+.article a {
+  font-size: 16px;
+  color: #666;
+  text-decoration: none;
+}
+
+.article a:hover {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Estilos para pantallas más pequeñas que 600px */
+@media screen and (max-width: 600px) {
+  /* Mobile styles */
+
+  /* Ajusta el tamaño de la imagen del encabezado y de perfil */
+  header figure img,
+  main figure img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Ajusta el tamaño del texto del encabezado */
+  header h1 {
+    font-size: 24px;
+  }
+
+  header li,
+  header a {
+    font-size: 14px;
+  }
+
+  /* Ajusta la disposición de los elementos del encabezado */
+  header ul {
+    flex-wrap: wrap;
+  }
+
+  header li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Ajusta la disposición de los artículos */
+  .article {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* Ajusta el tamaño del texto de los artículos */
+  .article h3 {
+    font-size: 18px;
+  }
+
+  .article li a {
+    font-size: 14px;
+  }
+
+  /* Ajusta el tamaño del pie de página */
+  footer {
+    font-size: 14px;
+  }
+}

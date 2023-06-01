@@ -10,6 +10,18 @@ header {
   background-color: #f2f2f2;
   text-align: center;
   padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-right: 10px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.titulo {
+  flex: 1;
 }
 
 h1 {

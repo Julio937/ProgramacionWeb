@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro - Snack Conference 2022</title>
+    <link rel="stylesheet" href="assets/css/registroSnack.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Snack Conference 2022</h1>
+    </header>
+
+    <section>
+      <h2>Registro</h2>
+      <form action="registroSnack.html" method="GET">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <input type="submit" value="Enviar" class="btn" />
+      </form>
+
+      <div class="registro-info">
+        <h3>Último registro:</h3>
+        <p>Nombre: <span id="nombre-info"></span></p>
+        <p>Apellido: <span id="apellido-info"></span></p>
+        <p>Email: <span id="email-info"></span></p>
+      </div>
+
+      <a href="snackConference.html" class="btn-volver"
+        >Volver a la página principal</a
+      >
+    </section>
+
+    <footer>
+      <p>© 2022 Snack Conference. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/js/jsSnack.js"></script>
+  </body>
+</html>

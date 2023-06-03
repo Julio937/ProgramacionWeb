@@ -1,0 +1,49 @@
+{
+    "catalogo": [{
+            "producto": {
+                "referencia": "cta123",
+                "nombre": "Camiseta 123",
+                "colores": ["Azul", "Verde", "Rojo", "Naranja"],
+                "tallas": ["S", "M", "L", "XL", "XXL"],
+                "fotos": [
+                    "/images/productos/product_single_01.jpg",
+                    "/images/productos/product_single_02.jpg",
+                    "/images/productos/product_single_03.jpg",
+                    "/images/productos/product_single_04.jpg",
+                    "/images/productos/product_single_05.jpg",
+                    "/images/productos/product_single_06.jpg",
+                    "/images/productos/product_single_07.jpg",
+                    "/images/productos/product_single_08.jpg",
+                    "/images/productos/product_single_09.jpg",
+                    "/images/productos/product_single_10.jpg"
+                ],
+                "precio": "12345",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas et a tempore expedita accusamus, vero tenetur aut non illum molestias repellendus fugit ducimus numquam impedit est eaque vel incidunt debitis?",
+                "fabricante": "fabricas contx"
+            }
+        },
+        {
+            "producto": {
+                "referencia": "cta123",
+                "nombre": "Sudadera Sport Wear 123",
+                "colores": ["Azul", "Verde", "Rojo", "Naranja"],
+                "tallas": ["S", "M", "L", "XL", "XXL"],
+                "fotos": [
+                    "/images/productos/product_single_01.jpg",
+                    "/images/productos/product_single_02.jpg",
+                    "/images/productos/product_single_03.jpg",
+                    "/images/productos/product_single_04.jpg",
+                    "/images/productos/product_single_05.jpg",
+                    "/images/productos/product_single_06.jpg",
+                    "/images/productos/product_single_07.jpg",
+                    "/images/productos/product_single_08.jpg",
+                    "/images/productos/product_single_09.jpg",
+                    "/images/productos/product_single_10.jpg"
+                ],
+                "precio": "12345",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas et a tempore expedita accusamus, vero tenetur aut non illum molestias repellendus fugit ducimus numquam impedit est eaque vel incidunt debitis?",
+                "fabricante": "fabricas contx"
+            }
+        }
+    ]
+}

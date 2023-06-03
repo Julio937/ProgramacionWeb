@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+#backButton {
+    position: fixed; /* Agregamos posicionamiento fijo al botón */
+    top: 15px; /* Ajustamos la distancia desde la parte superior */
+    right: 20px; /* Ajustamos la distancia desde la derecha */
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.planet {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.planet h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.planet p {
+    margin: 10px 0;
+}
+
+.planet p strong {
+    color: #FFC107;
+}
+

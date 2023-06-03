@@ -36,15 +36,21 @@ const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N',
 
 10 - Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "rosa"] determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no.*/
 
-// Function for 1
+// Función para mostrar el resultado en la página
+function mostrarResultado(resultado) {
+    const resultadoDiv = document.getElementById("resultado");
+    resultadoDiv.innerText = resultado;
+}
+
+// Función para el ejercicio 1
 function ejercicio1() {
     let nombre = prompt("Ingrese su nombre");
     let edad = prompt("Ingrese su edad");
     let edadProx = parseInt(edad) + 1;
-    console.log(`Hola ${nombre}, tienes ${edad} años y el año que viene tendrás ${edadProx} años`);
+    mostrarResultado(`Hola ${nombre}, tienes ${edad} años y el año que viene tendrás ${edadProx} años`);
 }
 
-// Function for 2
+// Función para el ejercicio 2
 function ejercicio2() {
     let figura = prompt("Ingrese la figura a la que desea calcular el área");
     let base = prompt("Ingrese la base");
@@ -54,35 +60,37 @@ function ejercicio2() {
     switch (figura) {
         case "triangulo":
             area = (base * altura) / 2;
-            console.log(`El área del triángulo es ${area}`);
+            mostrarResultado(`El área del triángulo es ${area}`);
             break;
         case "rectangulo":
             area = base * altura;
-            console.log(`El área del rectángulo es ${area}`);
+            mostrarResultado(`El área del rectángulo es ${area}`);
             break;
         case "circulo":
             area = Math.PI * Math.pow(radio, 2);
-            console.log(`El área del círculo es ${area}`);
+            mostrarResultado(`El área del círculo es ${area}`);
             break;
         default:
-            console.log("La figura ingresada no es válida");
+            mostrarResultado("La figura ingresada no es válida");
             break;
     }
 }
 
-// Function for 3
+// Función para el ejercicio 3
 function ejercicio3() {
     let num = prompt("Ingrese un número");
+    let resultado = "";
     for (let i = 1; i <= num; i++) {
         if (i % 2 == 0) {
-            console.log(`${i} - es par`);
+            resultado += `${i} - es par\n`;
         } else {
-            console.log(`${i} - es impar`);
+            resultado += `${i} - es impar\n`;
         }
     }
+    mostrarResultado(resultado);
 }
 
-// Function for 4
+// Función para el ejercicio 4
 function ejercicio4() {
     let num = prompt("Ingrese un número");
     let cont = 0;
@@ -92,23 +100,23 @@ function ejercicio4() {
         }
     }
     if (cont > 0) {
-        console.log("El número no es primo");
+        mostrarResultado("El número no es primo");
     } else {
-        console.log("El número es primo");
+        mostrarResultado("El número es primo");
     }
 }
 
-// Function for 5
+// Función para el ejercicio 5
 function ejercicio5() {
     let num = prompt("Ingrese un número");
     let fact = 1;
     for (let i = 1; i <= num; i++) {
         fact *= i;
     }
-    console.log(`El factorial de ${num} es ${fact}`);
+    mostrarResultado(`El factorial de ${num} es ${fact}`);
 }
 
-// Function for 6
+// Función para el ejercicio 6
 function ejercicio6() {
     let num = 0;
     let suma = 0;
@@ -118,29 +126,31 @@ function ejercicio6() {
         suma += parseInt(num);
         cont++;
     }
-    console.log(`El total acumulado es ${suma} y se ingresaron ${cont} números`);
+    mostrarResultado(`El total acumulado es ${suma} y se ingresaron ${cont} números`);
 }
 
-// Function for 7
+// Función para el ejercicio 7
 function ejercicio7() {
     let arr = [1, 2, 3, 4, 5];
     let pares = [];
     let impares = [];
     let num = 0;
+    let resultado = "";
     for (let i = 0; i < arr.length; i++) {
         num = Math.floor(Math.random() * 10) + 1;
-        console.log(`${arr[i]} x ${num} = ${arr[i] * num}`);
+        resultado += `${arr[i]} x ${num} = ${arr[i] * num}\n`;
         if ((arr[i] * num) % 2 == 0) {
             pares.push(arr[i] * num);
         } else {
             impares.push(arr[i] * num);
         }
     }
-    console.log(`Array de pares: ${pares}`);
-    console.log(`Array de impares: ${impares}`);
+    resultado += `Array de pares: ${pares}\n`;
+    resultado += `Array de impares: ${impares}`;
+    mostrarResultado(resultado);
 }
 
-// Function for 8
+// Función para el ejercicio 8
 function ejercicio8() {
     let letras = [
         "T",
@@ -170,13 +180,13 @@ function ejercicio8() {
     ];
     let dni = prompt("Ingrese su DNI");
     if (dni.length > 8 || dni < 0) {
-        console.log("El número ingresado no es válido");
+        mostrarResultado("El número ingresado no es válido");
     } else {
-        console.log(`Su DNI completo es ${dni}${letras[dni % 23]}`);
+        mostrarResultado(`Su DNI completo es ${dni}${letras[dni % 23]}`);
     }
 }
 
-// Function for 9
+// Función para el ejercicio 9
 function ejercicio9() {
     let palabra = prompt("Ingrese una palabra");
     let vocales = 0;
@@ -194,10 +204,10 @@ function ejercicio9() {
             consonantes++;
         }
     }
-    console.log(`La palabra ingresada tiene ${vocales} vocales y ${consonantes} consonantes`);
+    mostrarResultado(`La palabra ingresada tiene ${vocales} vocales y ${consonantes} consonantes`);
 }
 
-// Function for 10
+// Función para el ejercicio 10
 function ejercicio10() {
     let colores = ["azul", "amarillo", "rojo", "verde", "rosa"];
     let color = prompt("Ingrese un color");
@@ -208,10 +218,11 @@ function ejercicio10() {
         }
     }
     if (existe) {
-        console.log("El color ingresado existe en el array");
+        mostrarResultado("El color ingresado existe en el array");
     } else {
-        console.log("El color ingresado no existe en el array");
+        mostrarResultado("El color ingresado no existe en el array");
     }
 }
+
 
 

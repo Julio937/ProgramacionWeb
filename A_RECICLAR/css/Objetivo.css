@@ -1,0 +1,40 @@
+#objetivos {
+	width: 80%;
+    margin: auto;
+	text-align: justify;
+	margin-top: 80px;
+}
+ 
+
+#espe{
+    margin-top: 40px;
+    text-align: left;
+}
+
+#espe img{
+   width: 300%;
+    max-width: 680px;
+    height: 300px;
+    
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.Artículos img{
+    margin-top: 12px;
+	width: 300%;
+    max-width: 680px;
+    height: 300px;
+    margin-left: 180px;
+}
+
+#objetivo {
+    margin-top: 25px;
+}
+
+@media(max-width:768px){
+    #objetivos img{ width: 105%;
+        }
+}

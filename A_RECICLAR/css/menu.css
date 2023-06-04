@@ -1,0 +1,57 @@
+#menu-bar {
+	display: none;
+}
+
+header label {
+	float: right;
+	font-size: 28px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.menu {
+position: absolute;
+top: 50px;
+right: 0;
+width: auto;
+height: 100vh;
+background:-webkit-gradient(linear, 71% 100%, 5% 0%, from(#00B4FF), to(#000000));
+transition: all 0.5s;
+transform: translateX(100%);
+}
+
+.menu a {
+	display: block;
+	color: #fff;
+	height: 50px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.menu a:hover {
+	background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+
+
+	.menu a {
+		
+	}
+	
+
+header label:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.menu p{
+    text-align: center;
+    margin-top: auto;
+}
+
+#encima{
+    margin-top: -13px;
+}

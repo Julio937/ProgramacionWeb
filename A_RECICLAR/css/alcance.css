@@ -1,0 +1,57 @@
+#alcance {
+	margin: auto;
+	text-align: justify;
+	margin-top: 80px;
+	
+}
+
+.Artículos{
+    width: 80%;
+    margin: auto;
+}
+
+#alcance img{
+    width: 100%;
+    max-width: 280px;
+    height: 300px;
+}
+
+#vid {
+	margin-top: 40px;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+#vid .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#vid article{
+	margin: 15px;
+}
+
+#vid media{
+	width: 100%;
+    max-width: 280px;
+    height: 300px;
+}
+
+#vid media{
+    height: 100px;
+}
+
+#vid h3{
+    text-align: center;
+}
+
+#vid img{
+    width: 80%;
+    margin: auto;
+}
+
+#sof{
+    margin-top: 20px;
+}

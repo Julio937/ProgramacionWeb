@@ -1,0 +1,26 @@
+#capturas h3, h4{
+	text-align: center;
+}
+
+#capturas .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#capturas article{
+	margin: 30px;
+}
+
+#capturas img{
+	width: 110%;
+	max-width: 1280px;
+    object-fit: cover;
+    height: 440px;
+    margin: auto;
+}
+
+@media(max-width:768px){
+    #capturas img{ width: 105%;
+        }
+}

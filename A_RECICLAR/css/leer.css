@@ -1,0 +1,18 @@
+#leer {
+	margin: auto;
+	text-align: justify;
+	margin-top: 80px;
+}
+
+#leer h3, p, li, h6{
+    margin-top: 20px;
+}
+
+#leer h3{
+    color:red;
+}
+
+@media(max-width:768px){
+    #leer img{ width: 105%;
+        }
+}

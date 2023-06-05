@@ -43,13 +43,16 @@ header li {
   letter-spacing: 1px;
 }
 
-header a {
-  color: #666;
+header a{
+  color: #007bff;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 
-header a:hover {
-  color: #333;
+header a:hover{
+  color: #0056b3;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 main {
@@ -145,15 +148,21 @@ footer p {
   text-transform: uppercase;
 }
 
-a {
+.articles .article a {
   color: #007bff;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
-a:hover {
+.articles .article a:hover {
   color: #0056b3;
+  text-decoration: underline;
+  cursor: pointer;
 }
+
+
+
+
 
 /* Estilos para pantallas más pequeñas que 600px */
 @media screen and (max-width: 600px) {

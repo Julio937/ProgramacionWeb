@@ -34,7 +34,12 @@ h3{
     margin-top: 25px;
 }
 
+.principal{
+    margin-bottom: 25px;
+}	
+
 @media(max-width:768px){
+
     #objetivos img{ width: 105%;
         }
 }

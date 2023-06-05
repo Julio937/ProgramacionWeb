@@ -15,7 +15,7 @@ top: 50px;
 right: 0;
 width: auto;
 height: 100vh;
-background:-webkit-gradient(linear, 71% 100%, 5% 0%, from(#00B4FF), to(#000000));
+background:-webkit-gradient(linear, 71% 100%, 5% 0%, from(#029e36), to(#000000));
 transition: all 0.5s;
 transform: translateX(100%);
 }
@@ -37,11 +37,6 @@ transform: translateX(100%);
 	transform: translateX(0%);
 }
 
-
-	.menu a {
-		
-	}
-	
 
 header label:hover {
     background: rgba(255,255,255,0.3);

@@ -1,60 +1,142 @@
-#con{
-	background:-webkit-gradient(linear, 91% 100%, 5% 0%, from(#C2FFFF), to(#539A3D));
-	background-size: 100ww 100wh;
-	background-attachment: fixed;
-	margin: 0;
+#con {
+  background: -webkit-gradient(
+    linear,
+    91% 100%,
+    5% 0%,
+    from(#c2ffff),
+    to(#539a3d)
+  );
+  background-size: 100ww 100wh;
+  background-attachment: fixed;
+  margin: 0;
 }
 
-form{
-	width: 450px;
-	margin: auto;
-	background: rgba(0,0,0,0.4);
-	padding: 10px 20px;
-	box-sizing: border-box;
-	margin-top: 150px;
-	border-radius: 7px;
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 150px;
+  border-radius: 7px;
 }
 
 h2 {
-	text-align: center;
-	margin: 0;
-	font-size: 30px;
-	margin-bottom: 20px;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-input, textarea {
-	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	box-sizing: border-box;
-	font-size: 17px;
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
 }
 
 textarea {
-	min-height: 100px;
-	max-height: 200px;
-	max-width: 100%;
-	min-width: 50%;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  min-width: 50%;
 }
 
-#envco{
-	background: #31384A;
-	color: #fff;
-	padding: 20px;
-	
+#envco {
+  background: #31384a;
+  color: #fff;
+  padding: 20px;
 }
 
 #envco:hover {
-	cursor: pointer;
-	background: rgba(255,255,255,0.3);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width:480px) {
-	form{
-		width: 100%;
-	}
+input[type="submit"] {
+  background: #31384a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:active {
+  transform: translateY(2px);
+  background: #222;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
 }
 
 #contact {
-    margin-top: 101px;
+  margin-top: 101px;
+}
+
+#confirmacion {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+#confirmacion h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#confirmacion p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#confirmacion button {
+  background: #31384a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#confirmacion button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#confirmacion #btn-enviar {
+  margin-right: 10px;
+}
+
+#confirmacion #btn-cancelar {
+  background: #8f4646;
+}
+
+#confirmacion #btn-cancelar:hover {
+  background: #cb6767;
 }

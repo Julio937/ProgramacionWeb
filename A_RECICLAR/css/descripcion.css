@@ -1,37 +1,40 @@
 #descripcion {
 	width: 90%;
-    margin: auto;
+	margin: auto;
 	text-align: justify;
 	margin-top: 80px;
-	
-}
-#descripcion1 h3, h4{
-	text-align: center;
-}
+  }
 
 #descripcion1 {
-	margin-top: 40px;
-    align-items: flex-start;
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
 }
 
-#descripcion1 .contenedor{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+#descripcion1 .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#descripcion1 article{
-	margin: 35px;
+#descripcion1 article {
+  margin: 35px;
+  max-width: 300px;
 }
 
-#descripcion1 img{
-	width: 100%;
-    max-width: 280px;
-    height: 300px;
+#descripcion1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
 }
-#descripcion1 p{
-	text-align: justify;
-    width: 250px;
-    margin: auto;
-    margin-top: 12px;
+
+#descripcion1 img:hover {
+  transform: scale(1.1);
+}
+
+#descripcion1 p {
+  margin-top: 10px;
+  font-size: 1.1em;
 }
